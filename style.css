@@ -93,19 +93,16 @@ button {
 
 .text1 h1 {
   text-align: center;
-  color: aliceblue;
 }
 
 .text1 h2 {
   text-align: center;
-  color: aliceblue;
 }
 
 .text1 p {
   text-align: center;
   font-size: x-large;
   padding: 10px;
-  color: aliceblue;
 }
 
 .text1 button {
@@ -144,19 +141,16 @@ button {
 .text2 h1 {
   padding-top: 80px;
   text-align: center;
-  color: aliceblue;
 }
 
 .text2 h2 {
   text-align: center;
-  color: aliceblue;
 }
 
 .text2 p {
   text-align: center;
   font-size: x-large;
   padding: 10px;
-  color: aliceblue;
 }
 
 .child3 {
@@ -504,24 +498,21 @@ button {
 }
 
 @media only screen and (min-width: 300px) and (max-width: 780px) {
+  .container {
+  }
 
-.container{
-  
-}
+  .child1 {
+    display: flex;
+    justify-content: column;
+    flex-direction: column;
+  }
 
-.child1{
-  display: flex;
-  justify-content: column;
-  flex-direction: column;
-}
+  .child1 p {
+    display: block;
+    flex-direction: column;
+  }
 
-.child1 p{
-  display: block;
-  flex-direction: column;
-}
-
-.menus{
-  display: none;
-}
-
+  .menus {
+    display: none;
+  }
 }
